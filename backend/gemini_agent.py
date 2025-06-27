@@ -2,7 +2,7 @@ import re
 import requests
 import json
 
-GEMINI_API_KEY = "AIzaSyBRf4Q1ftgcJ0rhcRvKcz3wt3FGmn3-TVU"
+GEMINI_API_KEY = "Your-API-Key"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
 
 def extract_event_info(user_message):
